@@ -65,4 +65,4 @@ From left to right: RMU at 1362x2048px, DJU at 334x502px, RMU at 334x502px.
 
 ## Data
 
-Find included some samples from the [**MIT-Adobe FiveK**](https://data.csail.mit.edu/graphics/fivek/) dataset in the `examples/` folder. They are from editor **C** and converted to jpg with included Lihgtoom Catalog 
+Find included some samples from the [**MIT-Adobe FiveK**](https://data.csail.mit.edu/graphics/fivek/) dataset in the `examples/` folder. They are from editor **C** and converted to jpg with the  given Lihgtoom Catalog. 
