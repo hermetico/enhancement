@@ -95,7 +95,6 @@ def enhance_straight(network, image: Image, device, half_precision: bool = False
     return result_image
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Enhancer with Residual Mask Upsaling')
     parser.add_argument("--gpu",  default=None, type=int)
@@ -103,7 +102,7 @@ if __name__ == "__main__":
     parser.add_argument("--input", "-i", default="examples/original/4663.jpg")
     parser.add_argument("--truth", "-t", default="examples/C/4663.jpg")
     parser.add_argument("--out", "-o", default="out/rmu-4663.jpg")
-    parser.add_argument("--i_resolution", default=512, type=int, help="Max inference resolution")
+    parser.add_argument("--i_resolution", default=1024, type=int, help="Max inference resolution")
     parser.add_argument("--f_resolution", default=None, type=int, help="Max final resolution")
 
     args = parser.parse_args()

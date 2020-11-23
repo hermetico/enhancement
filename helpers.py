@@ -23,6 +23,7 @@ def create_output_folder(path, abs_path=True):
 
 
 def store_result(image: Image,  output_path: str, jpg_quality=95):
+    print("Storing result at", output_path)
     image.save(output_path, quality=jpg_quality, subsampling=0)
 
 
