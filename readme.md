@@ -22,7 +22,7 @@ This repository provides 2 pretrained models:
 
 **upscaler.pt:** An upscaler network based on the Deep Joint Upsampler optimized for upscaling 6 times the input
 
-The included scripts will process the input image at a given resolution and compute the result at the original resolution.
+The included scripts will process the input image at a given resolution and store the result at the original resolution.
 
 * Use `python enhance-rmu.py` to enhance an image and upscale it to the main resolution with the Residual Mask Upscaling technique.
 
